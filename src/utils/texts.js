@@ -1,0 +1,4 @@
+const CardTexts = {
+  HowToHelp: "",
+  Campains:"",
+}

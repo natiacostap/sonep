@@ -1,0 +1,77 @@
+.container-pages{
+  margin: 20px 20px 40px 20px !important;
+}
+.about{
+  margin-top: 30px;
+}
+.titles-pages{
+  color: #1c56a4;
+  font-weight: 800;
+  font-family: Helvetica;
+  margin: 20px;
+  text-align: center;
+}
+.cards-row{
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20%;
+}
+.img-rows{
+  margin: 10% 10px 20px 10px;
+  width: 100%;
+}
+.texts-justify{
+  text-align: justify;
+}
+.text-container{
+  margin: 50px 10px 20px 10px;
+}
+.blue-container{
+  background-color: #1c56a4;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+.text-white{
+  color: white !important;
+}
+
+.help{
+  margin: 20px;
+}
+.help-btn{
+  max-width: 400px;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-bg{
+  background-color: #013A6B;
+  background-image: -webkit-linear-gradient(30deg, #ffffff 60%, #f0f0f0 40%);
+  min-height: 500px;
+  color: white
+}
+
+.center-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-img{
+  background-color: #1c56a4;
+  padding:10px;
+  z-index: -200;
+  border-radius: 10px;
+}
+.img-size{
+  width: 100%;
+}
+.custom-size-btn{
+  width: 70%;
+  height: 100px
+}
+.text-card{
+  color: white !important;
+  font-weight: 700;
+}

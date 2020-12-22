@@ -1,0 +1,65 @@
+.top-navbar {
+  justify-content: space-between !important;
+}
+.bottom-navbar {
+  background-color: #1c56a4 !important;
+  align-items: center;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: white !important;
+}
+.navbar-collapse {
+  justify-content: center;
+}
+.navbar-light .navbar-nav .nav-link {
+  padding: 5px 20px 5px 20px !important;
+}
+.logo-azul {
+  width: 40px;
+  margin: 0px;
+}
+.nav-bg{
+  background-color: #1c56a4;
+  background-image: -webkit-linear-gradient(30deg, #1c56a4 70%, #ffffff 30%);
+  /* min-height: 500px; */
+}
+
+.card{
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+.btn-card{
+  background-color: #1c56a4 !important;
+  border-color: #1c56a4 !important;
+}
+
+.subtitle{
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+.banner{
+  padding: 10px;
+}
+
+.jumbotron-bg{
+  background-color: #013A6B;
+  margin: 10px;
+  /* min-height: 500px; */
+}
+.img-kids{
+  padding: 20px;
+}
+/* .img-card {
+  opacity: 0.7;
+} */
+.basicForm{
+  padding: 20px;
+  margin: 20px;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  width: 60%;
+}
+
+
