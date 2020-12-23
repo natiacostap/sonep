@@ -77,6 +77,9 @@ const TopBar = (props) => {
                 <NavLink href="/help">¿Cómo Ayudar?</NavLink>
               </NavItem>
               <NavItem>
+                <NavLink href="/campaigns">Campañas</NavLink>
+              </NavItem>
+              <NavItem>
                 <NavLink href="/gallery">Galeria</NavLink>
               </NavItem>
               <NavItem>

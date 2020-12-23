@@ -11,9 +11,9 @@
 .navbar-collapse {
   justify-content: center;
 }
-.navbar-light .navbar-nav .nav-link {
+/* .navbar-light .navbar-nav .nav-link {
   padding: 5px 20px 5px 20px !important;
-}
+} */
 .logo-azul {
   width: 40px;
   margin: 0px;
@@ -24,21 +24,21 @@
   /* min-height: 500px; */
 }
 
-.card{
+/* .card{
   width: 300px;
   height: 200px;
   margin: 10px;
-}
+} */
 .btn-card{
   background-color: #1c56a4 !important;
   border-color: #1c56a4 !important;
 }
 
-.subtitle{
+/* .subtitle{
   width: 80%;
   align-items: center;
   justify-content: center;
-}
+} */
 .banner{
   padding: 10px;
 }
@@ -57,9 +57,42 @@
 .basicForm{
   padding: 20px;
   margin: 20px;
-  background-color: #f6f6f6;
+  background-color: #ece9e9;
   border-radius: 10px;
-  width: 60%;
+  width: 70%;
+}
+.blue-text{
+  color: #1c56a4;
+  font-weight: bold;
+  font-size: x-large;
+}
+.red-text{
+  color: red;
+  font-weight: bold;
+  font-size: x-large;
+}
+.subtitle{
+  color: gray;
+}
+.bg-list-blue{
+  background-color: #1c56a4 !important;
+}
+.list-info{
+  width: 90%;
+  margin: 30px;
+}
+.card{
+  width: 300px ;
+  height: 200px;
+  margin: 10%;
+  border-radius: 50%;
+
+}
+.bold-title{
+  font-weight: bold;
 }
 
+.cardBody-height{
+  height: 150px !important;
+}
 

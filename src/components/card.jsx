@@ -10,7 +10,7 @@ import {
 } from "reactstrap";
 import Kids from "../assets/kids.png";
 
-const CardInfo = (props) => {
+const CardWithPhoto = (props) => {
   return (
     <div>
       <Card>
@@ -31,4 +31,4 @@ const CardInfo = (props) => {
   );
 };
 
-export default CardInfo;
+export default CardWithPhoto;

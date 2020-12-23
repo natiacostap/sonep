@@ -4,6 +4,7 @@ import Home from "../pages/home";
 import About from "../pages/about";
 import Kids from "../pages/kids";
 import Help from "../pages/help";
+import Campaigns from "../pages/campaigns";
 import Gallery from "../pages/gallery";
 import Contact from "../pages/contact"
 
@@ -32,6 +33,9 @@ export default function App(props) {
           </Route>
           <Route path="/help">
             <Help />
+          </Route>
+          <Route path="/campaigns">
+            <Campaigns />
           </Route>
           <Route path="/gallery">
             <Gallery />

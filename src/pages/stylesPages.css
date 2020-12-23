@@ -11,14 +11,16 @@
   margin: 20px;
   text-align: center;
 }
+
 .cards-row{
   align-items: center;
   justify-content: center;
   margin-bottom: 20%;
 }
 .img-rows{
-  margin: 10% 10px 20px 10px;
+  padding: 10% 10px 10px 10px;
   width: 100%;
+  margin-bottom: 20px;
 }
 .texts-justify{
   text-align: justify;
@@ -28,11 +30,21 @@
 }
 .blue-container{
   background-color: #1c56a4;
-  margin-bottom: 40px;
   border-radius: 10px;
+  padding:30px;
+  margin: 20px
+}
+.gray-container{
+  background-color: rgb(226, 226, 226);
+  border-radius: 10px;
+  padding:30px;
+  margin: 20px
 }
 .text-white{
   color: white !important;
+}
+.text-blue{
+  color: #1c56a4 !important;
 }
 
 .help{
@@ -65,7 +77,7 @@
   border-radius: 10px;
 }
 .img-size{
-  width: 100%;
+  width: 80%;
 }
 .custom-size-btn{
   width: 70%;
@@ -74,4 +86,15 @@
 .text-card{
   color: white !important;
   font-weight: 700;
+}
+.text-center{
+  text-align: center;
+}
+.center-cards{
+  align-items: center;
+}
+
+.card-row{
+  display: flex;
+  flex-direction: row;
 }

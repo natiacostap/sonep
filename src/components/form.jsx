@@ -19,10 +19,10 @@ const BasicForm = (props) => {
 
       <FormGroup>
         <Label className="label-forms" for="exampleText">Mensaje</Label>
-        <Input type="textarea" name="text" id="exampleText" placeholder="Escribe tu mensaje"/>
+        <Input type="textarea" name="text" id="exampleText" placeholder="Escribe tu mensaje" />
       </FormGroup>
       
-      <Button>Enviar</Button>
+      <Button >Enviar</Button>
     </Form>
   );
 }
