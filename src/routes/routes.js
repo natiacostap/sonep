@@ -14,10 +14,6 @@ import "../App.css";
 
 
 export default function App(props) {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggle = () => setIsOpen(!isOpen);
-
   return (
     <Router>
       <div>

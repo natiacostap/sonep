@@ -1,9 +1,10 @@
 import React from "react";
+import "./stylesPages.css";
 
 function Gallery() {
   return (
     <div>
-      Gallery  
+      <h2 className="titles-pages">Galeria</h2>
     </div>
   );
 }

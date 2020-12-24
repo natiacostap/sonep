@@ -1,20 +1,22 @@
 import React from 'react';
 import { Media } from 'reactstrap';
+import "./stylesComponents.css";
 
-const CardKids = () => {
+const CardKids = (props) => {
   return (
-    <Media>
+    <Media className="card-kids bg-red border-radius">
       <Media left href="#">
-        <Media object data-src="holder.js/64x64" alt="Generic placeholder image" />
+        <Media  object data-src={props.photo} alt="photo" />
       </Media>
       <Media body>
         <Media heading>
-          Media heading
+          {props.title}
         </Media>
-        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+        {props.content}
       </Media>
     </Media>
   );
 };
 
 export default CardKids;
+

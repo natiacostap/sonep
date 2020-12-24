@@ -11,7 +11,6 @@
   margin: 20px;
   text-align: center;
 }
-
 .cards-row{
   align-items: center;
   justify-content: center;
@@ -22,23 +21,22 @@
   width: 100%;
   margin-bottom: 20px;
 }
+.img-margin{
+  margin: 20px
+}
 .texts-justify{
   text-align: justify;
 }
 .text-container{
-  margin: 50px 10px 20px 10px;
+  margin: 25px;
 }
 .blue-container{
   background-color: #1c56a4;
-  border-radius: 10px;
   padding:30px;
-  margin: 20px
 }
 .gray-container{
   background-color: rgb(226, 226, 226);
-  border-radius: 10px;
   padding:30px;
-  margin: 20px
 }
 .text-white{
   color: white !important;
@@ -46,7 +44,6 @@
 .text-blue{
   color: #1c56a4 !important;
 }
-
 .help{
   margin: 20px;
 }
@@ -55,21 +52,18 @@
   align-items: center;
   justify-content: center;
 }
-
 .home-bg{
   background-color: #013A6B;
   background-image: -webkit-linear-gradient(30deg, #ffffff 60%, #f0f0f0 40%);
   min-height: 500px;
   color: white
 }
-
 .center-container{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
 .bg-img{
   background-color: #1c56a4;
   padding:10px;
@@ -93,8 +87,62 @@
 .center-cards{
   align-items: center;
 }
-
 .card-row{
   display: flex;
   flex-direction: row;
+}
+/* .card-home{
+  height: 300px;
+} */
+.card-img{
+  width: 100px !important;
+  margin: 10px;
+}
+/* .card-body{
+  display: flex;
+  align-items: center;
+} */
+.card-title{
+  text-align: center;
+  font-weight: bolder;
+}
+.card-margin{
+  margin: 10px 0px 10px 0px;
+}
+.green-container{
+  background-color: #28a745 !important;
+  padding: 20px;
+}
+.yellow-container{
+  background-color: #ffc107 !important;
+  padding: 30px;
+}
+.skyblue-container{
+  background-color: #17a2b8 !important;
+  padding: 20px;
+}
+.card-campaign{
+  width: 90%;
+  margin: 20px;
+}
+.bold-text{
+  font-weight: bold;
+}
+.border-radius{
+  border-radius: 15px;
+}
+.bg-red{
+  background-color: #c82333 !important;
+}
+.bg-green{
+  background-color: #28a745 !important;
+}
+.bg-skyblue{
+  background-color: #17a2b8 !important;
+}
+.bg-yellow{
+  background-color: #ffc107 !important;
+}
+.bg-yellow{
+  background-color: #1c56a4 !important;
 }
