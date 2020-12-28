@@ -10,7 +10,6 @@ import {
   NavbarText,
   ButtonToggle,
 } from "reactstrap";
-
 import "./stylesComponents.css";
 import Instagram from "../assets/instagram_azul.png";
 import Facebook from "../assets/facebook_azul.png";
@@ -23,39 +22,51 @@ const TopBar = (props) => {
 
   return (
     <div>
-      <Navbar light color="light" expand="md" className="nav-bg">
+      <Navbar light color="light" expand="lg" className="nav-bg">
+        <div className="align-right">
         <NavbarBrand href="/">
           <img className="logo-azul" src={LogoAzul} alt="logo" />
         </NavbarBrand>
-        <NavbarToggler onClick={toggle} />
+        <NavbarToggler className="align-left" onClick={toggle} />
+        </div>
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
-          <NavItem>
-                <NavLink href="/kids">Conoce a los Niños</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="/about">¿Qué es Sonep?</NavLink>
-              </NavItem>{" "}
-              <NavItem>
-                <NavLink href="/help">¿Cómo Ayudar?</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="/campaigns">Campañas</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="/gallery">Galeria</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="/contact">Contacto</NavLink>
-              </NavItem>
+            <NavItem>
+              <NavLink href="/LosNiños">Conoce a los Niños</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/SobreSonep">¿Qué es Sonep?</NavLink>
+            </NavItem>{" "}
+            <NavItem>
+              <NavLink href="/ComoAyudar">¿Cómo Ayudar?</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/Campañas">Campañas</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/Galeria">Galeria</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/Contacto">Contacto</NavLink>
+            </NavItem>
           </Nav>
-
           <NavbarText>
-          <img href="" id="intagram" src={Instagram} alt="intagram" />
-          <img href="" id="facebook" src={Facebook} alt="intagram" />
-          <ButtonToggle size="lg"color="danger">Donar</ButtonToggle>{" "}
+            <a href="https://www.instagram.com/sonrisas_de_nepal">
+              <img id="intagram" src={Instagram} alt="intagram" />
+            </a>
+            <a href="https://www.instagram.com/sonrisas_de_nepal">
+              <img href="" id="facebook" src={Facebook} alt="facebook" />
+            </a>
           </NavbarText>
         </Collapse>
+          <ButtonToggle
+            className="text-white"
+            href="/Donar"
+            size="lg"
+            color="danger"
+          >
+            Donar
+          </ButtonToggle>{" "}
       </Navbar>
     </div>
   );

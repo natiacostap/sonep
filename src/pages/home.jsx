@@ -23,7 +23,7 @@ function Home() {
               photo={Kids}
               btnTitle="Conocer a los niños"
               btnColor="secondary"
-              linkTo="/kids"
+              linkTo="/LosNiños"
             />
           </Col>
           <Col xs={"12"} md={"4"}>
@@ -33,7 +33,7 @@ function Home() {
               photo={Donate}
               btnTitle="Saber más"
               btnColor="secondary"
-              linkTo="/about"
+              linkTo="/SobreSonep"
             />
           </Col>
           <Col xs={"12"} md={"4"}>
@@ -43,13 +43,14 @@ function Home() {
               photo={Camp}
               btnTitle="Saber más"
               btnColor="secondary"
-              linkTo="/campaigns"
+              linkTo="/Campañas"
             />
           </Col>
         </Row>
         </div>
       </Container>
-      <Contact> </Contact>
+      <Contact
+      showIndex="hide-index" /> 
     </div>
   );
 }

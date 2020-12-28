@@ -10,7 +10,9 @@ const CardInfo = (props) => {
           {props.title}
         </CardTitle>
         <CardImg src={props.photo}></CardImg>
-        <CardTitle tag="p">{props.text}</CardTitle>
+        <CardTitle tag="p">
+          {props.text}
+          </CardTitle>
         <Button href={props.linkTo} color={props.btnColor}>
           {props.btnTitle}
         </Button>

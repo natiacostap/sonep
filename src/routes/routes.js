@@ -5,8 +5,13 @@ import About from "../pages/about";
 import Kids from "../pages/kids";
 import Help from "../pages/help";
 import Campaigns from "../pages/campaigns";
+import CampSchool from "../pages/campSchool";
+import CampCovid from "../pages/campCovid";
 import Gallery from "../pages/gallery";
-import Contact from "../pages/contact"
+import Contact from "../pages/contact";
+import Donate from "../pages/donate";
+import Documents from "../pages/documents";
+
 
 import TopBar from "../components/topbar.jsx"
 
@@ -21,23 +26,35 @@ export default function App(props) {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/about">
+          <Route path="/SobreSonep">
             <About />
           </Route>
-          <Route path="/kids">
+          <Route path="/LosNiños">
             <Kids />
           </Route>
-          <Route path="/help">
+          <Route path="/ComoAyudar">
             <Help />
           </Route>
-          <Route path="/campaigns">
+          <Route path="/Campañas">
             <Campaigns />
           </Route>
-          <Route path="/gallery">
+          <Route path="/CampañaEscolar">
+            <CampSchool />
+          </Route>
+          <Route path="/CampañaCovid">
+            <CampCovid />
+          </Route>
+          <Route path="/Galeria">
             <Gallery />
           </Route>
-          <Route path="/contact">
+          <Route path="/Contacto">
             <Contact />
+          </Route>
+          <Route path="/Documentos">
+            <Documents />
+          </Route>
+          <Route path="/Donar">
+            <Donate />
           </Route>
           <Route path="/">
             <Home />

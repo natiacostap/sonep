@@ -1,9 +1,13 @@
 .container-pages{
   margin: 20px 20px 40px 20px !important;
 }
+.container-index{
+  margin: 20px 20px 0px 20px !important;
+}
 .about{
   margin-top: 30px;
 }
+
 .titles-pages{
   color: #1c56a4;
   font-weight: 800;
@@ -43,6 +47,9 @@
 }
 .text-blue{
   color: #1c56a4 !important;
+}
+.skyblue-text{
+  color: #17a2b8 !important;
 }
 .help{
   margin: 20px;
@@ -91,17 +98,11 @@
   display: flex;
   flex-direction: row;
 }
-/* .card-home{
-  height: 300px;
-} */
+
 .card-img{
   width: 100px !important;
   margin: 10px;
 }
-/* .card-body{
-  display: flex;
-  align-items: center;
-} */
 .card-title{
   text-align: center;
   font-weight: bolder;
@@ -128,6 +129,9 @@
 .bold-text{
   font-weight: bold;
 }
+.italic-text{
+  font-style: italic;
+}
 .border-radius{
   border-radius: 15px;
 }
@@ -145,4 +149,13 @@
 }
 .bg-yellow{
   background-color: #1c56a4 !important;
+}
+.hide-index{
+  display: none;
+}
+.show-index{
+  display: block;
+}
+.show-item-index{
+  display: none !important;
 }

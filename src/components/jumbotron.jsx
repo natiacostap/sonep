@@ -21,9 +21,8 @@ const Banner = (props) => {
               niños vulnerables y de escasos recursos de Nepal para que logren
               completar su educación.
             </p>
-            {/* <hr className="my-2" />  */}
             <p className="lead">
-              <Button href="/help" size="lg" color="danger">
+              <Button href="/ComoAyudar" size="lg" color="danger">
                 ¿Cómo Ayudar?
               </Button>
             </p>

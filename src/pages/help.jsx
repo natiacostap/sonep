@@ -1,6 +1,7 @@
 import React from "react";
 
 import CardInfo from "../components/cardInfo";
+import Index from "../components/breadCrumbs";
 import { Container, Row, Col, Button } from "reactstrap";
 import Sonep from "../assets/logo.png";
 import Kids from "../assets/icon-kids.png";
@@ -10,6 +11,11 @@ import Give from "../assets/icon-give.png";
 function Help() {
   return (
     <div className="container-pages">
+      <Index
+        name="Como ayudar"
+        link="/ComoAyudar"
+        showIndexItem="show-item-index"
+      />
       <Container>
         <Row>
           <Col xs={"12"} md={"3"}>
@@ -51,11 +57,11 @@ function Help() {
         </Row>
         <Row>
           <Col xs={"12"} md={{ size: 6, offset: 3 }}>
-            <div className="center-container text-container"> 
-            <Button href="/donate" block size="lg" color="danger">
-              {" "}
-              Donar{" "}
-            </Button>
+            <div className="center-container text-container">
+              <Button href="/Donar" block size="lg" color="danger">
+                {" "}
+                Donar{" "}
+              </Button>
             </div>
           </Col>
         </Row>

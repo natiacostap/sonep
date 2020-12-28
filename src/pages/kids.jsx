@@ -2,13 +2,20 @@ import React from "react";
 import KidsInfo from "../components/kidsInfo";
 import Kids from "../assets/foto1.png";
 import StackGrid from "react-stack-grid";
+import Index from "../components/breadCrumbs";
 
 import "./stylesPages.css";
 
 function TheKids() {
   return (
-    <div>
-      <h2 className="titles-pages">Nuestras Niños</h2>
+    <div className="container-pages">
+      <Index
+        name="Los Niños"
+        link="/LosNiños"
+        showIndexItem="show-item-index"
+      />
+
+      {/* <h2 className="titles-pages">Nuestros Niños</h2> */}
       <StackGrid columnWidth={455} monitorImagesLoaded={true}>
         <KidsInfo
           className="bg-red"
