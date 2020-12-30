@@ -147,7 +147,7 @@
 .bg-yellow{
   background-color: #ffc107 !important;
 }
-.bg-yellow{
+.bg-blue{
   background-color: #1c56a4 !important;
 }
 .hide-index{
@@ -159,3 +159,22 @@
 .show-item-index{
   display: none !important;
 }
+.center-doc{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.docs-icon{
+  width: 80px;
+  margin: 10px;
+}
+.margin-container{
+  margin: 10px;
+}
+
+.contact-icons{
+  width: 150px;
+  margin: 40px 20px 40px 20px;
+}
+

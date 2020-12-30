@@ -2,11 +2,12 @@ import React from "react";
 
 import CardInfo from "../components/cardInfo";
 import Index from "../components/breadCrumbs";
+
 import { Container, Row, Col, Button } from "reactstrap";
-import Sonep from "../assets/logo.png";
-import Kids from "../assets/icon-kids.png";
-import Goal from "../assets/icon-goal.png";
-import Give from "../assets/icon-give.png";
+import Sonep from "../assets/logo_azul.png";
+import Kids from "../assets/icons/icon-kids.png";
+import Goal from "../assets/icons/icon-goal.png";
+import Give from "../assets/icons/icon-give.png";
 
 function Help() {
   return (

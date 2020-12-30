@@ -11,9 +11,9 @@ import {
   ButtonToggle,
 } from "reactstrap";
 import "./stylesComponents.css";
-import Instagram from "../assets/instagram_azul.png";
-import Facebook from "../assets/facebook_azul.png";
-import LogoAzul from "../assets/logo.png";
+import Instagram from "../assets/icons/icon-instagram.png";
+// import Facebook from "../assets/icons/icon-facebook.png";
+import LogoAzul from "../assets/logo_azul.png";
 
 const TopBar = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,10 +24,10 @@ const TopBar = (props) => {
     <div>
       <Navbar light color="light" expand="lg" className="nav-bg">
         <div className="align-right">
-        <NavbarBrand href="/">
-          <img className="logo-azul" src={LogoAzul} alt="logo" />
-        </NavbarBrand>
-        <NavbarToggler className="align-left" onClick={toggle} />
+          <NavbarBrand href="/">
+            <img className="logo-azul" src={LogoAzul} alt="logo" />
+          </NavbarBrand>
+          <NavbarToggler className="align-left" onClick={toggle} />
         </div>
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
@@ -54,19 +54,19 @@ const TopBar = (props) => {
             <a href="https://www.instagram.com/sonrisas_de_nepal">
               <img id="intagram" src={Instagram} alt="intagram" />
             </a>
-            <a href="https://www.instagram.com/sonrisas_de_nepal">
+            {/* <a href="https://www.instagram.com/sonrisas_de_nepal">
               <img href="" id="facebook" src={Facebook} alt="facebook" />
-            </a>
+            </a> */}
           </NavbarText>
         </Collapse>
-          <ButtonToggle
-            className="text-white"
-            href="/Donar"
-            size="lg"
-            color="danger"
-          >
-            Donar
-          </ButtonToggle>{" "}
+        <ButtonToggle
+          className="text-white"
+          href="/Donar"
+          size="lg"
+          color="danger"
+        >
+          Donar
+        </ButtonToggle>{" "}
       </Navbar>
     </div>
   );

@@ -24,14 +24,12 @@ function About() {
                 escasos recursos para que pudieran asistir a la escuela. Gracias
                 al éxito de esta primera campaña, las ganas de ayudar de la
                 comunidad Chilena, y el compromiso que ellos mismos demostraron,
-                el apoyo se expandió a 6 niños de la zona, y a la fecha la
-                campaña lleva 2 años consecutivos con exitosos resultados.
-                Actualmente somos entre 30 y 40 personas que año tras año se han
-                puesto la mano en el bolsillo para apoyar a estos pequeños con
-                su educación, y así entregarles una herramienta concreta con la
-                que ellos puedan salir adelante y romper el círculo de la
-                pobreza en que se han visto inmersas sus familias por
-                generaciones.
+                el apoyo se expandió a 7 niños de la zona y a la fecha la
+                campaña lleva 5 años consecutivos con exitosos resultados. Año
+                tras año hemos podido acompñar a estos pequeños con su
+                educación, y así entregarles una herramienta concreta con la que
+                ellos puedan salir adelante y romper el círculo de la pobreza en
+                que se han visto inmersas sus familias por generaciones.
               </p>
             </div>
           </Col>

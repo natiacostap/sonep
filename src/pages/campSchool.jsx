@@ -3,9 +3,9 @@ import React from "react";
 import CardInfo from "../components/cardInfo";
 import { Container, Row, Col } from "reactstrap";
 import ListGroupInfo from "../components/listGroup";
-import Graduated from "../assets/graduated.png";
-import School from "../assets/school.png";
-import Student from "../assets/student.png";
+import Graduated from "../assets/icons/icon-graduated.png";
+import School from "../assets/icons/icon-school.png";
+import Student from "../assets/icons/icon-student.png";
 import "./stylesPages.css";
 import Index from "../components/breadCrumbs";
 
@@ -69,7 +69,7 @@ function Help() {
                 color="danger"
                 title="$80.000"
                 text="UNIFORME POR NIÑ@:
-      Incluye 2 Set de: Pantalón - Camisa, Chaleco - Corbata, Zapatos - Calcetines, Mochila - Buzo"
+      Incluye 2 Set de: Pantalón, Camisa, Chaleco, Corbata, Zapatos, Calcetines, Mochila, Buzo"
                 btnColor=""
                 photo={Student}
               />

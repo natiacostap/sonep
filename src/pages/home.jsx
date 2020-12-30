@@ -2,9 +2,9 @@ import React from "react";
 import CardInfo from "../components/cardInfo.jsx";
 import { Container, Row, Col } from "reactstrap";
 import Banner from "../components/jumbotron.jsx";
-import Kids from "../assets/icon-kids.png";
-import Camp from "../assets/icon-campaign.png";
-import Donate from "../assets/icon-donate.png";
+import Kids from "../assets/icons/icon-kids.png";
+import Camp from "../assets/icons/icon-campaign.png";
+import Donate from "../assets/icons/icon-donate.png";
 import Contact from "../pages/contact";
 
 import "./stylesPages.css";
@@ -21,7 +21,7 @@ function Home() {
               color="info"
               title="CONOCE A LOS NIÑOS"
               photo={Kids}
-              btnTitle="Conocer a los niños"
+              btnTitle="Saber más"
               btnColor="secondary"
               linkTo="/LosNiños"
             />
