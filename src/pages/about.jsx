@@ -26,7 +26,7 @@ function About() {
                 comunidad Chilena, y el compromiso que ellos mismos demostraron,
                 el apoyo se expandió a 7 niños de la zona y a la fecha la
                 campaña lleva 5 años consecutivos con exitosos resultados. Año
-                tras año hemos podido acompñar a estos pequeños con su
+                tras año hemos podido acompañar a estos pequeños con su
                 educación, y así entregarles una herramienta concreta con la que
                 ellos puedan salir adelante y romper el círculo de la pobreza en
                 que se han visto inmersas sus familias por generaciones.

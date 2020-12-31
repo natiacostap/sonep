@@ -24,8 +24,8 @@ function Donate(props) {
             <div className="skyblue-container text-center border-radius">
               <h3 className="text-white bold-text">DONACIONES</h3>
               <p className="text-white bold-text">
-                Puedes escribirnos a sonrisasdenepalchile@gmail.com o llamános
-                al +56 978065857
+                Puedes escribirnos a <a  className="a-white" href="mailto:sonrisasdenepalchile@gmail.com">sonrisasdenepalchile@gmail.com</a> o envíanos un WhatsApp
+                al <a className="a-white" href=" https://wa.me/56978065857">+56 978065857</a>
               </p>
               <ListGroup>
                 <ListGroupItem>
@@ -50,7 +50,7 @@ function Donate(props) {
                 </ListGroupItem>
               </ListGroup>
               <p className="text-white italic-text">
-                *Recuerda programar tus donaciones automáticamente
+                *Recuerda que puedes programar tus donaciones automáticamente
               </p>
             </div>
           </Col>

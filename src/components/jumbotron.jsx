@@ -12,7 +12,7 @@ const Banner = () => {
           <Row>
             <Col xs={"12"} md={"6"}>
               <div>
-                <h6 className="display-3 to-front">¡Regala Sonrisas!</h6>
+                <h5 className="display-3 to-front bold-text">¡Regala Sonrisas!</h5>
               </div>
               <p className="lead">
                 Te invitamos a unirte a esta noble campaña que busca apoyar a 7

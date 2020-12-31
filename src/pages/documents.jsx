@@ -14,6 +14,9 @@ function Documents() {
         link2="/Documentos"
       />
 
+   <h2 className="titles-pages green-text margin-container">
+          Documentos Campaña Ayuda Pandemia 2020
+        </h2>
       <Container>
         <Row>
           <Col xs={"12"} md={{ size: "3" }}>

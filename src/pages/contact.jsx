@@ -5,7 +5,7 @@ import CardInfo from "../components/cardInfo";
 import Index from "../components/breadCrumbs";
 import "./stylesPages.css";
 import Sonep from "../assets/logo_blanco.png";
-import Phone from "../assets/icons/icon-phone.png";
+import Phone from "../assets/icons/icon-wsp.png";
 import Mail from "../assets/icons/icon-mail.png";
 
 function Contact(props) {
@@ -26,17 +26,6 @@ function Contact(props) {
         <Container>
           <Row>
             <Col xs={"12"} md={"6"}>
-              {/* <BasicForm /> */}
-              <div className="center-cards text-center margin-container">
-                <a href=" https://wa.me/56978065857">
-                  <img className="contact-icons" src={Phone} alt="phone" />
-                </a>
-                <a href="mailto:sonrisasdenepalchile@gmail.com">
-                  <img className="contact-icons" src={Mail} alt="mail" />
-                </a>
-              </div>
-            </Col>
-            <Col xs={"12"} md={"6"}>
               {/* <div className="card-margin"> */}
               <CardInfo
                 color="info"
@@ -48,6 +37,24 @@ function Contact(props) {
                 photo={Sonep}
               />
               {/* </div> */}
+            </Col>
+            <Col xs={"12"} md={"6"}>
+              {/* <BasicForm /> */}
+              <div className="row-container ">
+                <a href=" https://wa.me/56978065857">
+                  <div className=" center-container margin-container text-center"> 
+                  <img className="contact-icons" src={Phone} alt="phone" />
+                  <h6 className="text-white bold-text">¡Envíanos un mensaje!</h6>
+                  </div>
+                </a>
+             
+                <a href="mailto:sonrisasdenepalchile@gmail.com">
+                  <div className="center-container margin-container text-center">
+                  <img className="contact-icons" src={Mail} alt="mail" />
+                  <h6 className="text-white bold-text">¡Envíanos un correo!</h6>
+                  </div>
+                </a>
+              </div>
             </Col>
           </Row>
         </Container>

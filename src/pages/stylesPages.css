@@ -51,6 +51,10 @@
 .skyblue-text{
   color: #17a2b8 !important;
 }
+.green-text{
+  color: #28a745 !important;
+}
+.h
 .help{
   margin: 20px;
 }
@@ -122,6 +126,10 @@
   background-color: #17a2b8 !important;
   padding: 20px;
 }
+.red-container{
+  background-color: #c82333 !important;
+  padding: 20px;
+}
 .card-campaign{
   width: 90%;
   margin: 20px;
@@ -175,6 +183,16 @@
 
 .contact-icons{
   width: 150px;
-  margin: 40px 20px 40px 20px;
+  margin: 40px 10px 10px 10px;
+}
+
+.row-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.a-white{
+  color: white !important;
 }
 
