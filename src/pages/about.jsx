@@ -16,7 +16,7 @@ function About() {
       <Container>
         <Row>
           <Col xs={"12"} md={"6"}>
-            <div className="skyblue-container border-radius">
+            <div className="skyblue-container border-radius text-center">
               <h2 className="titles-pages text-white">¿Quiénes somos?</h2>
               <p className="texts-justify text-white bold-text">
                 Sonrisa de Nepal (SONEP), es un proyecto que nació el año 2014
