@@ -40,10 +40,10 @@ function Help() {
                 title1="Meta 2020: $2.600.000.-"
                 subtitle1="Para año académico 2021, para 7 niños."
                 color1=""
-                title2="Recaudado a la fecha: $1.020.00.-"
-                subtitle2=" Al 25 de Noviembre de 2020."
+                title2="Recaudado a la fecha: $1.100.000.-"
+                subtitle2="Al 31 de Diciembre de 2020."
                 color2=""
-                title3="Falta Recaudar: $1.580.000.-"
+                title3="Falta Recaudar: $1.500.000.-"
                 subtitle3="Tenemos que llegar a la meta a más tardar Marzo 2021."
                 color3="danger"
               />
