@@ -3,6 +3,7 @@ import React from "react";
 import CardInfo from "../components/cardInfo";
 import { Container, Row, Col } from "reactstrap";
 import ListGroupInfo from "../components/listGroup";
+import SmallCard from "../components/SmallCard";
 import Graduated from "../assets/icons/icon-graduated.png";
 import School from "../assets/icons/icon-school.png";
 import Student from "../assets/icons/icon-student.png";
@@ -22,11 +23,17 @@ function Help() {
         <div className="green-container border-radius">
           <Row>
             <Col xs={"12"} md={"6"}>
-              <h3 className="titles-pages text-white"> Campaña Escolar</h3>
+              <h3 className="titles-pages text-white"> Campaña Escolar 2021</h3>
               <p className="text-justify text-white bold-text">
                 {" "}
-                Para financiar el año académico 2021 de 7 esforzados niños de
-                escasos recurso de Nepal. Conoce a continuación la meta, lo que
+                Para financiar el año académico 2022 de 7 esforzados niños de
+                escasos recurso de Nepal, y también ponernos al día con lo que faltó recaudar en la campaña 2020.
+          
+              </p>
+              <p className="text-justify text-white bold-text">
+                {" "}
+               
+                Conoce a continuación la meta, lo que
                 llevamos recaudado y algunas fotos de los niños.
               </p>
               <p className="text-justify text-white bold-text">
@@ -37,14 +44,14 @@ function Help() {
 
             <Col xs={"12"} md={"6"}>
               <ListGroupInfo
-                title1="Meta 2020: $2.600.000.-"
-                subtitle1="Para año académico 2021, para 7 niños."
+                title1="Meta 2021: $4.500.000.-"
+                subtitle1="Para año académico 2022 de 7 niños, y ponernos al día con lo que no se logro cubrir el año 2020."
                 color1=""
-                title2="Recaudado a la fecha: $1.100.000.-"
-                subtitle2="Al 31 de Diciembre de 2020."
+                title2="Recaudado a la fecha: $0.-"
+                subtitle2="Al 01 de Abril de 2021."
                 color2=""
-                title3="Falta Recaudar: $1.500.000.-"
-                subtitle3="Tenemos que llegar a la meta a más tardar Marzo 2021."
+                title3="Falta Recaudar: $4.500.000.-"
+                subtitle3="Tenemos que llegar a la meta a más tardar Marzo 2022."
                 color3="danger"
               />
             </Col>
@@ -87,6 +94,36 @@ function Help() {
           </Row>
         </div>
       </Container>
+      <Container> 
+      <div className="blue-container border-radius">
+          <Row>
+            <Col xs={"12"} md={"12"}>
+              <h5 className="titles-pages text-white"> Recaudación Campaña Escolar 2020</h5>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={"12"} md={"4"}>
+              <SmallCard
+                title="Meta 2021"
+                subtitle="$2.700.00.-"
+              />
+            </Col>
+            <Col xs={"12"} md={"4"}>
+            <SmallCard
+                title="Monto recaudado"
+                subtitle="$1.025.000.-"
+              />
+            </Col>
+            <Col xs={"12"} md={"4"}>
+            <SmallCard
+                title="Monto traspasado a campaña 2021"
+                subtitle="$1.675.000.-"
+              />
+            </Col>
+          </Row>
+        </div>
+        </Container>
+
     </div>
   );
 }
