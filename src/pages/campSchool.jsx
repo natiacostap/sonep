@@ -48,7 +48,7 @@ function Help() {
                 subtitle1="Para año académico 2022 de 7 niños, y ponernos al día con lo que no se logro cubrir el año 2020."
                 color1=""
                 title2="Recaudado a la fecha: $320.000"
-                subtitle2="Al 01 de Abril de 2021."
+                subtitle2="Al 19 de Abril de 2021."
                 color2=""
                 title3="Falta Recaudar: $4.180.000"
                 subtitle3="Tenemos que llegar a la meta a más tardar Marzo 2022."
