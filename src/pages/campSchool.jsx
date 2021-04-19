@@ -44,13 +44,13 @@ function Help() {
 
             <Col xs={"12"} md={"6"}>
               <ListGroupInfo
-                title1="Meta 2021: $4.500.000.-"
+                title1="Meta 2021: $4.500.000"
                 subtitle1="Para año académico 2022 de 7 niños, y ponernos al día con lo que no se logro cubrir el año 2020."
                 color1=""
-                title2="Recaudado a la fecha: $0.-"
+                title2="Recaudado a la fecha: $320.000"
                 subtitle2="Al 01 de Abril de 2021."
                 color2=""
-                title3="Falta Recaudar: $4.500.000.-"
+                title3="Falta Recaudar: $4.180.000"
                 subtitle3="Tenemos que llegar a la meta a más tardar Marzo 2022."
                 color3="danger"
               />
@@ -105,19 +105,19 @@ function Help() {
             <Col xs={"12"} md={"4"}>
               <SmallCard
                 title="Meta 2021"
-                subtitle="$2.700.00.-"
+                subtitle="$2.700.000"
               />
             </Col>
             <Col xs={"12"} md={"4"}>
             <SmallCard
                 title="Monto recaudado"
-                subtitle="$1.025.000.-"
+                subtitle="$1.025.000"
               />
             </Col>
             <Col xs={"12"} md={"4"}>
             <SmallCard
                 title="Monto traspasado a campaña 2021"
-                subtitle="$1.675.000.-"
+                subtitle="$1.675.000"
               />
             </Col>
           </Row>
