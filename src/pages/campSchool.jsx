@@ -47,10 +47,10 @@ function Help() {
                 title1="Meta 2021: $4.500.000"
                 subtitle1="Para año académico 2022 de 7 niños, y ponernos al día con lo que no se logro cubrir el año 2020."
                 color1=""
-                title2="Recaudado a la fecha: $320.000"
-                subtitle2="Al 19 de Abril de 2021."
+                title2="Recaudado a la fecha: $365.000"
+                subtitle2="Al 25 de Junio de 2021."
                 color2=""
-                title3="Falta Recaudar: $4.180.000"
+                title3="Falta Recaudar: $4.135.000"
                 subtitle3="Tenemos que llegar a la meta a más tardar Marzo 2022."
                 color3="danger"
               />
